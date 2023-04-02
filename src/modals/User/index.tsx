@@ -7,7 +7,6 @@ import Form from "@/components/Form/Form";
 import useNavbarStore from "@/stores/useNavbarStore";
 import Modal from "@/components/Modal/Modal";
 import { useForm } from "react-hook-form";
-import { Badge } from "@shopify/polaris";
 
 const UserModal = () => {
 	const { user, error, loading, signIn, ...rest } = useUserStore((state) => state);
