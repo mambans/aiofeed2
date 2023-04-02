@@ -41,5 +41,11 @@ module.exports = {
 				allowObject: false,
 			},
 		],
+		"@typescript-eslint/no-explicit-any": "off",
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars": "off",
+		"jsx-a11y/label-has-associated-control": "off",
+		"react/display-name": "off",
+		// "@typescript-eslint/no-unused-vars": ["error", { args: "none" }],
 	},
 };
